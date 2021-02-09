@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Ahad'sBloodBank",
+    "slug": "rn-starter",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.jpeg",
+    "splash": {
+      "image": "./assets/icon.jpeg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.jpeg",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package":"com.bloodbank.ahadsbloodbank"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
